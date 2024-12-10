@@ -1,0 +1,1 @@
+This is a default message (ALT + 2). To change this message, go to the folder with the executable and change the 02.txt file in the "\Your Macros" folder.

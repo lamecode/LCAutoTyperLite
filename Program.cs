@@ -240,7 +240,8 @@ class Program
     private static void TypeTextFromFile(string fileName)
     {
         string exePath = AppDomain.CurrentDomain.BaseDirectory;
-        string filePath = Path.Combine(exePath, fileName);
+        string macrosDirectory = Path.Combine(exePath, "Your Macros");  // Path to the 'Your Macros' folder
+        string filePath = Path.Combine(macrosDirectory, fileName);  // Combine the directory with the filename
 
         if (File.Exists(filePath))
         {
@@ -276,6 +277,7 @@ class Program
             LogMessage(message); // Log and print the message if file doesn't exist
         }
     }
+
 
     // Structure for handling messages
     [StructLayout(LayoutKind.Sequential)]

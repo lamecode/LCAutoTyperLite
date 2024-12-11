@@ -60,9 +60,9 @@ class Program
         Console.WriteLine("▓▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓  ▓▓▓▓▓  ▓▓▓▓▓▓▓▓▓");
         Console.WriteLine("█████████  ████████  ████  ██        █████  █████████");
         Console.WriteLine("█████████        ███      ███  ████  █████  █████████");
-        Console.Write("                      LameCode's Auto Typer Lite ");
+        Console.Write("                     LameCode's Auto Typer Lite ");
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("v0.1");
+        Console.WriteLine("v0.1b");
         Console.ResetColor();
         Console.WriteLine(new string('-', 53)); // Divider
         Console.Write("Application is now listening for a hotkey.\nTo check for updates, press "); // Divider between header and log
@@ -123,7 +123,7 @@ class Program
         Console.WriteLine($"Current delay: {_minDelay} - {_maxDelay} ms");
         Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.WriteLine("If your system can't keep up with the typing speed,");
-        Console.WriteLine("press CTRL+SHIT+L for long delays (50 to 70 ms).");
+        Console.WriteLine("press CTRL+SHIFT+L for long delays (50 to 70 ms).");
         Console.WriteLine("Press CTRL+SHIFT+S to revert to short (20 to 30 ms).");
         Console.ResetColor();
         Console.WriteLine(new string('-', 53)); // Divider

@@ -1,7 +1,7 @@
 ![Logo](https://lamecode.eu/aplikace/lcat/LCAT%20Icon.png)
 
 
-# LameCode's Auto Typer Lite
+# LameCode's Auto Typer Lite (LCAT)
 
 Lightweight, portable and completely FREE solution for your auto-typing needs. Free alternative to Murgee's Auto Typer. Very simple to use. Compatible with all Windows versions having .NET 4.8
 
